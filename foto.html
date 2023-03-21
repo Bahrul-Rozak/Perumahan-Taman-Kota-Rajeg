@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+       <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+       <link rel="stylesheet" href="assets/css/styles.css">
+       <title>Perumahan Taman Kota Rajeg</title>
+</head>
+<body>
+       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+              <div class="container">
+                     <a class="navbar-brand" href="#"><i class="fa fa-home" aria-hidden="true"></i> Perumahan Taman Kota
+                            Rajeg</a>
+                     <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto">
+                                   <li class="nav-item">
+                                          <a class="nav-link active" aria-current="page" href="#">Berita</a>
+                                   </li>
+                                   <li class="nav-item">
+                                          <a class="nav-link" href="#">Agenda</a>
+                                   </li>
+                                   <li class="nav-item">
+                                          <a class="nav-link" href="#">Galeri</a>
+                                   </li>
+                                   <li class="nav-item">
+                                          <a class="nav-link" href="#">Video</a>
+                                   </li>
+                                   <li class="nav-item">
+                                          <a class="nav-link" href="#">Kontak</a>
+                                   </li>
+                            </ul>
+                     </div>
+              </div>
+       </nav>
+
+       <header class="pt-5 border-bottom bg-light text-center">
+              <div class="container pt-md-1 pb-md-1">
+                  <h1 class="bd-title mt-4 font-weight-bold"><i class="fa fa-image" aria-hidden="true"></i> GALERI FOTO
+                  </h1>
+                  <p class="bd-lead">Galeri Foto terbaru.</p>
+              </div>
+          </header>
+      
+              <!-- breadcrumb -->
+          <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                      <a hre="#" class="text-decoration-none"><i class="fa fa-home"></i> Home
+                          </a>
+                  </li>
+                  <li class="breadcrumb-item">
+                      <a href="#" class="text-decoration-none"><i class="fa fa-image"></i>
+                              Galeri Foto</a>
+                  </li>
+              </ol>
+          </nav>
+          <!-- end breadcrumb -->
+      
+          <div class="container-fluid mt-3 mb-5">
+              <div class="row">
+                  
+                  <div class="col-md-4 mb-4" v-for="photo in photos" :key="photo.id">
+                      <div class="card h-100 shadow-sm border-0 rounded-lg">
+                          <div class="card-img">
+                              <img src="assets/images/post_image.png" class="w-100" style="height: 300px;object-fit: cover;border-top-left-radius: .3rem;border-top-right-radius: .3rem;">
+                          </div>
+                          <div class="card-body text-center">
+                              <h6>Judul Foto</h6>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="col-md-4 mb-4" v-for="photo in photos" :key="photo.id">
+                      <div class="card h-100 shadow-sm border-0 rounded-lg">
+                          <div class="card-img">
+                              <img src="assets/images/post_image.png" class="w-100" style="height: 300px;object-fit: cover;border-top-left-radius: .3rem;border-top-right-radius: .3rem;">
+                          </div>
+                          <div class="card-body text-center">
+                              <h6>Judul Foto</h6>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="col-md-4 mb-4" v-for="photo in photos" :key="photo.id">
+                      <div class="card h-100 shadow-sm border-0 rounded-lg">
+                          <div class="card-img">
+                              <img src="assets/images/post_image.png" class="w-100" style="height: 300px;object-fit: cover;border-top-left-radius: .3rem;border-top-right-radius: .3rem;">
+                          </div>
+                          <div class="card-body text-center">
+                              <h6>Judul Foto</h6>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="col-md-4 mb-4" v-for="photo in photos" :key="photo.id">
+                      <div class="card h-100 shadow-sm border-0 rounded-lg">
+                          <div class="card-img">
+                              <img src="assets/images/post_image.png" class="w-100" style="height: 300px;object-fit: cover;border-top-left-radius: .3rem;border-top-right-radius: .3rem;">
+                          </div>
+                          <div class="card-body text-center">
+                              <h6>Judul Foto</h6>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="col-md-4 mb-4" v-for="photo in photos" :key="photo.id">
+                      <div class="card h-100 shadow-sm border-0 rounded-lg">
+                          <div class="card-img">
+                              <img src="assets/images/post_image.png" class="w-100" style="height: 300px;object-fit: cover;border-top-left-radius: .3rem;border-top-right-radius: .3rem;">
+                          </div>
+                          <div class="card-body text-center">
+                              <h6>Judul Foto</h6>
+                          </div>
+                      </div>
+                  </div>
+      
+      
+                  <div class="col-md-4 mb-4" v-for="photo in photos" :key="photo.id">
+                      <div class="card h-100 shadow-sm border-0 rounded-lg">
+                          <div class="card-img">
+                              <img src="assets/images/post_image.png" class="w-100" style="height: 300px;object-fit: cover;border-top-left-radius: .3rem;border-top-right-radius: .3rem;">
+                          </div>
+                          <div class="card-body text-center">
+                              <h6>Judul Foto</h6>
+                          </div>
+                      </div>
+                  </div>
+      
+              </div>
+          </div>
+      
+          <footer>
+              <div class="container-fluid" style="background: white;">
+                  <div class="row p-4">
+                      <div class="col-md-4">
+                          <h5>TENTANG</h5>
+                          <hr>
+                          <p>
+                              This example is a quick exercise to illustrate how the top-aligned navbar works. As you scroll, this navbar remains in its original position.
+                          </p>
+      
+                      </div>
+                      <div class="col-md-4">
+                          <h5>TAGS</h5>
+                          <hr>
+                          <button class="btn btn-sm btn-outline-secondary mb-2">KEGIATAN</button>
+                          <button class="btn btn-sm btn-outline-secondary mb-2">KERJA BAKTI</button>
+                          <button class="btn btn-sm btn-outline-secondary mb-2">PENGUMUMAN</button>
+                          <button class="btn btn-sm btn-outline-secondary mb-2">INFO</button>
+                      </div>
+                      <div class="col-md-4">
+                          <h5>KONTAK</h5>
+                          <hr>
+                          <p>
+                              <i class="fa fa-map-marker" aria-hidden="true"></i> This example is a quick exercise to illustrate how the top-aligned navbar works
+                              <i class="fas fa-phone"></i> +62857-8585-2224
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="container-fluid bg-dark">
+                  <div class="row p-3">
+                      <div class="text-center text-white font-weight-bold">
+                            Copyright © 2023 Perumahan Taman Kota Rajeg
+                      </div>
+                  </div>
+              </div>
+          </footer>
+      
+          <script src="assets/js/bootstrap.min.js"></script>
+
+</body>
+</html>
