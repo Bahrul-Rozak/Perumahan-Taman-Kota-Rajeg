@@ -15,4 +15,14 @@ class Tag extends Model
      * @var array
      */
     protected $guarded = [];
+
+    /**
+     * posts
+     *
+     * @return void
+     */
+    public function posts()
+    {
+        return $this->belongsToMany(Post::class);
+    }
 }
