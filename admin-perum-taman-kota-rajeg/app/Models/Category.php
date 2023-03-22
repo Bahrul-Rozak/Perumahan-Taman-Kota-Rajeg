@@ -15,4 +15,14 @@ class Category extends Model
      * @var array
      */
     protected $guarded = [];
+
+    /**
+     * post
+     *
+     * @return void
+     */
+    public function posts()
+    {
+        return $this->hasMany(Post::class);
+    }
 }

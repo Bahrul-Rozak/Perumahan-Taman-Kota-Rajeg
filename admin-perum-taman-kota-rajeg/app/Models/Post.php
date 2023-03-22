@@ -18,6 +18,16 @@ class Post extends Model
     protected $guarded = [];
 
     /**
+     * category
+     *
+     * @return void
+     */
+    public function category()
+    {
+        return $this->belongsTo(Category::class);
+    }
+
+    /**
      * image
      *
      * @return Attribute
@@ -25,7 +35,7 @@ class Post extends Model
     protected function image(): Attribute
     {
         return Attribute::make(
-            get: fn ($value) => asset('/storage/categories/' . $value),
+            get: fn ($value) => asset('/storage/posts/' . $value),
         );
     }
 }
