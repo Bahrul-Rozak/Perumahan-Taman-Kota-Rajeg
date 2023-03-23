@@ -119,8 +119,8 @@
                         @endif
 
                         @can('sliders.index')
-                            <li class="{{ setActive('admin/slider') }}"><a class="nav-link" href="#"><i
-                                        class="fas fa-laptop"></i>
+                            <li class="{{ setActive('admin/slider') }}"><a class="nav-link"
+                                    href="{{ route('admin.slider.index') }}"><i class="fas fa-laptop"></i>
                                     <span>Sliders</span></a></li>
                         @endcan
 
