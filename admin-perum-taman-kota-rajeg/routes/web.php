@@ -26,5 +26,8 @@ Route::prefix('admin')->group(function () {
 
         //users
         Route::resource('/user', App\Http\Controllers\Admin\UserController::class, ['except' => ['show'], 'as' => 'admin']);
+
+        //tags
+        Route::resource('/tag', App\Http\Controllers\Admin\TagController::class, ['except' => 'show', 'as' => 'admin']);
     });
 });
