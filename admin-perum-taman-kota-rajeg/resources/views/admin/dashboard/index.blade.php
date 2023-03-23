@@ -68,6 +68,66 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="card card-statistic-1">
+                        <div class="card-icon bg-success">
+                            <i class="fa fa-file text-white fa-2x"></i>
+                        </div>
+                        <div class="card-wrap">
+                            <div class="card-header">
+                                <h4>KATEGORI</h4>
+                            </div>
+                            <div class="card-body">
+                                {{ App\Models\Category::count() ?? '0' }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="card card-statistic-1">
+                        <div class="card-icon bg-success">
+                            <i class="fa fa-image text-white fa-2x"></i>
+                        </div>
+                        <div class="card-wrap">
+                            <div class="card-header">
+                                <h4>PHOTO</h4>
+                            </div>
+                            <div class="card-body">
+                                {{ App\Models\Photo::count() ?? '0' }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="card card-statistic-1">
+                        <div class="card-icon bg-success">
+                            <i class="fa fa-video text-white fa-2x"></i>
+                        </div>
+                        <div class="card-wrap">
+                            <div class="card-header">
+                                <h4>VIDEO</h4>
+                            </div>
+                            <div class="card-body">
+                                {{ App\Models\Video::count() ?? '0' }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="card card-statistic-1">
+                        <div class="card-icon bg-success">
+                            <i class="fa fa-image text-white fa-2x"></i>
+                        </div>
+                        <div class="card-wrap">
+                            <div class="card-header">
+                                <h4>SLIDER</h4>
+                            </div>
+                            <div class="card-body">
+                                {{ App\Models\Slider::count() ?? '0' }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </section>
