@@ -142,8 +142,8 @@
 
                                 @can('permissions.index')
                                     <li class="{{ setActive('admin/permission') }}"><a class="nav-link"
-                                            href="#"><i class="fas fa-key"></i>
-                                            Permissions</a></li>
+                                            href="{{ route('admin.permission.index') }}"><i
+                                                class="fas fa-key"></i>Permissions</a></li>
                                 @endcan
 
                                 @can('users.index')
