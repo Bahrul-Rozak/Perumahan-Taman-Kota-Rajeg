@@ -38,3 +38,7 @@ Route::get('/tag/{slug?}', [App\Http\Controllers\Api\TagController::class, 'show
 //category
 Route::get('/category', [App\Http\Controllers\Api\CategoryController::class, 'index']);
 Route::get('/category/{slug?}', [App\Http\Controllers\Api\CategoryController::class, 'show']);
+
+//photo
+Route::get('/photo', [App\Http\Controllers\Api\PhotoController::class, 'index']);
+Route::get('/homepage/photo', [App\Http\Controllers\Api\PhotoController::class, 'PhotoHomepage']);
