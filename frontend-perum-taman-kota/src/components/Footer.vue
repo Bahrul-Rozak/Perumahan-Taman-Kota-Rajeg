@@ -6,9 +6,9 @@
           <h5>TENTANG</h5>
           <hr />
           <p>
-            Sekolah Menengah Kejuruan adalah pendidikan formal yang
-            menyelenggarakan pendidikan kejuruan pada jenjang pendidikan
-            menengah sebagai lanjutan dari SMP/MTs.
+            Perumahan Taman Kota Rajeg berlokasi di Jl. Raya Ps. Mauk - Rajeg,
+            Lembangsari, Kec. Rajeg, Tangerang, Banten 15540, Indonesia, Kota
+            Tangerang.
           </p>
         </div>
         <div class="col-md-4">
