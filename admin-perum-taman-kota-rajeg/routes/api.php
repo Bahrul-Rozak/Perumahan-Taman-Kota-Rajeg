@@ -27,3 +27,6 @@ Route::get('/homepage/post', [App\Http\Controllers\Api\PostController::class, 'P
 Route::get('/event', [App\Http\Controllers\Api\EventController::class, 'index']);
 Route::get('/event/{slug?}', [App\Http\Controllers\Api\EventController::class, 'show']);
 Route::get('/homepage/event', [App\Http\Controllers\Api\EventController::class, 'EventHomePage']);
+
+//slider
+Route::get('/slider', [App\Http\Controllers\Api\SliderController::class, 'index']);
