@@ -34,3 +34,7 @@ Route::get('/slider', [App\Http\Controllers\Api\SliderController::class, 'index'
 //tags
 Route::get('/tag', [App\Http\Controllers\Api\TagController::class, 'index']);
 Route::get('/tag/{slug?}', [App\Http\Controllers\Api\TagController::class, 'show']);
+
+//category
+Route::get('/category', [App\Http\Controllers\Api\CategoryController::class, 'index']);
+Route::get('/category/{slug?}', [App\Http\Controllers\Api\CategoryController::class, 'show']);
