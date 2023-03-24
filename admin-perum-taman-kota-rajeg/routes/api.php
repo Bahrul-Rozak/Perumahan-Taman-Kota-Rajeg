@@ -30,3 +30,7 @@ Route::get('/homepage/event', [App\Http\Controllers\Api\EventController::class, 
 
 //slider
 Route::get('/slider', [App\Http\Controllers\Api\SliderController::class, 'index']);
+
+//tags
+Route::get('/tag', [App\Http\Controllers\Api\TagController::class, 'index']);
+Route::get('/tag/{slug?}', [App\Http\Controllers\Api\TagController::class, 'show']);
