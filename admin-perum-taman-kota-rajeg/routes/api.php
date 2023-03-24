@@ -42,3 +42,7 @@ Route::get('/category/{slug?}', [App\Http\Controllers\Api\CategoryController::cl
 //photo
 Route::get('/photo', [App\Http\Controllers\Api\PhotoController::class, 'index']);
 Route::get('/homepage/photo', [App\Http\Controllers\Api\PhotoController::class, 'PhotoHomepage']);
+
+//video
+Route::get('/video', [App\Http\Controllers\Api\VideoController::class, 'index']);
+Route::get('/homepage/video', [App\Http\Controllers\Api\VideoController::class, 'VideoHomepage']);
