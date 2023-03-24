@@ -5,14 +5,6 @@
     <!-- end header -->
 
     <!-- main content -->
-    <header class="pt-5 border-bottom bg-light">
-      <div class="container pt-md-1 pb-md-1">
-        <h1 class="bd-title mt-4 font-weight-bold">
-          <i class="fa fa-video" aria-hidden="true"></i> VIDEO
-        </h1>
-        <p class="bd-lead">Galeri Video terbaru.</p>
-      </div>
-    </header>
 
     <!-- breadcrumb -->
     <nav aria-label="breadcrumb">
