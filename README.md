@@ -1,9 +1,19 @@
+
 ## Tech Stack
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=vuejs,laravel" />
   </a>
 </p>
+
+## Katanya sih ini deskripsi
+- Admin Dashboard = Laravel 10
+- FrontEnd = VueJS 
+- lain-lain = sweatalert, axios, spatie laravel
+- Fitur :
+Super Admin bisa melakukan CRUD Berita, CRUD Agenda, CRUD Video, CRUD Foto, CRUD Slider, CRUD Dynamic member contohnya super admin bisa generate member dengan role penulis yang hanya bisa melakukan CRUD Berita dan ini bisa diubah-ubah sesuai keinginan admin (termasuk informasi member berupa username, jenis role, email dan password)
+Sisanya explore sendiri wkwk
+Sebelum clone jangan lupa star dan follow hehe
 
 ## Admin Dashboard Login 
 
