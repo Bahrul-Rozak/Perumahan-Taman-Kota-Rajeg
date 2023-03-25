@@ -23,7 +23,7 @@ Sebelum clone jangan lupa star dan follow hehe
 ![image](https://user-images.githubusercontent.com/57394564/227502675-c5adc965-3cf8-4328-bbd9-2a4ac5297cd4.png)
 
 ## Dasboard (Login as Member Role)
-![image](https://user-images.githubusercontent.com/57394564/227502961-f78fcd39-5233-4df8-a7ac-ca9e63216177.png)
+![image](https://user-images.githubusercontent.com/57394564/227502961-f78fcd39-5233-4df87ac-ca9e63216.png)
 
 
 
